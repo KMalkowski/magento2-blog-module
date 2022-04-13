@@ -1,0 +1,19 @@
+{
+    "name": "malkowski/module-blog",
+    "description": "Blog module, created to learn Magento 2",
+    "require": {
+        "php": "^8.1"
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Malkowski\\Blog\\": ""
+        }
+    }
+}
